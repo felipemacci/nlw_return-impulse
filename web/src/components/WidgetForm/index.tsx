@@ -9,26 +9,26 @@ import { FeedbackSuccessStep } from "./Steps/FeedbackSuccessStep"
 
 export const feedbackTypes = {
     BUG: {
-        title: "Problema",
+        title: "Bug",
         image: {
             source: bugImage,
-            alt: "Imagem de um inseto"
+            alt: "Bug image"
         }
     },
 
     IDEA: {
-        title: "Ideia",
+        title: "Idea",
         image: {
             source: ideaImage,
-            alt: "Imagem de uma lâmpada"
+            alt: "Light bulb image"
         }
     },
 
     OTHER: {
-        title: "Outro",
+        title: "Other",
         image: {
             source: thoughtImage,
-            alt: "Imagem de um balão de pensamento"
+            alt: "Thought bubble image"
         }
     }
 }
@@ -63,7 +63,7 @@ export function WidgetForm() {
             }
 
             <footer>
-                <span className="text-xs text-neutral-400">Feito com 🤍 pela <a className="underline underline-offset-2" href="https://rocketseat.com.br">Rocketseat</a></span>
+                <span className="text-xs text-neutral-400">Made with 🤍 by <a className="underline underline-offset-2" href="https://rocketseat.com.br">Rocketseat</a></span>
             </footer>
         </div>
     )
